@@ -4,8 +4,8 @@ from typing import List, Optional, Dict, Any
 import httpx
 from fastmcp import FastMCP
 import logging
+import logging
 logging.basicConfig(
-    filename=r"C:\Users\ROHIT\Desktop\travel_planner\attractions_debug.log",
     level=logging.WARNING,
     format="%(asctime)s %(levelname)s %(message)s",
 )

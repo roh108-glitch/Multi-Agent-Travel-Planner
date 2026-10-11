@@ -98,7 +98,7 @@ async def fetch_coordinates(
         "addressdetails": 1,
     }
     headers = {
-            "User-Agent": "UniqueTransportMCPToolsServer/1.0 (rohitskillman@gmail.com)",
+            "User-Agent": "UniqueTransportMCPToolsServer/1.0 (roh108-glitch@users.noreply.github.com)",
             "Referer": "https://github.com/roh108-glitch"
         }
     try:
@@ -129,7 +129,7 @@ async def query_overpass_with_fallback(
 ) -> Optional[Dict[str, Any]]:
     """Tries primary Overpass API and falls back to mirrors if HTTP 406/504 occurs."""
     headers = {
-    "User-Agent": "AttractionsServiceApp/1.0 (rohitskillman@gmail.com)",
+    "User-Agent": "AttractionsServiceApp/1.0 (roh108-glitch@users.noreply.github.com)",
     "Referer": "https://github.com/roh108-glitch",
     "Content-Type": "text/plain; charset=utf-8",
 }

@@ -80,7 +80,7 @@ async def fetch_coordinates(
     # 1. Check if the input is a known state name and map to its capital
     lookup_name = STATE_CAPITAL_MAP.get(clean_name.lower(), clean_name)
     headers = {
-        "User-Agent": "UniqueTransportMCPToolsServer/1.0 (rohitskillman@gmail.com)",
+        "User-Agent": "UniqueTransportMCPToolsServer/1.0 (roh108-glitch@users.noreply.github.com)",
         "Referer": "https://github.com/roh108-glitch"
     }
     params = {

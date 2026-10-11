@@ -37,7 +37,7 @@ async def fetch_coordinates(loc1: str, loc2: str) -> dict:
     
     # Custom headers are mandatory to comply with Nominatim's policy
     headers = {
-        "User-Agent": "UniqueTransportMCPToolsServer/1.0 (rohitskillman@gmail.com)",
+        "User-Agent": "UniqueTransportMCPToolsServer/1.0 (roh108-glitch@users.noreply.github.com)",
         "Referer": "https://github.com/roh108-glitch"
     }
     
